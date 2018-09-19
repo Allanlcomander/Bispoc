@@ -24,7 +24,7 @@ margin:5%;
    text-align: center;
    padding-right: 45px;
    cursor: pointer;
-  
+
 
 
 }
@@ -43,6 +43,11 @@ li:hover{
 }
 .card{
   background-color: skyblue;
+
+}
+a:hover{
+  text-decoration:underline;
+  color: white;
 }
 @media screen and (max-width:450px){
 
