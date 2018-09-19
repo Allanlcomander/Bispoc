@@ -1,0 +1,58 @@
+body{
+  /* background-image: url("../images/lady2.jpg"); */
+   padding: 0;
+	 margin: 0;
+	border: none;
+  background-color: skyblue;
+  text-align: center;
+
+}
+
+.main{
+  margin: 50px;
+}
+
+.flags{
+text-align: center;
+margin:5%;
+
+}
+/* arranges the ul tags in the continent section if there are more countries to be listed */
+.list{
+  list-style-type: none;
+   display: none;
+   text-align: center;
+   padding-right: 45px;
+   cursor: pointer;
+  
+
+
+}
+li:hover{
+  text-decoration: underline;
+
+}
+/* class makes headers have pointers. in the continent class */
+.continents{
+  margin: 5%auto;
+}
+#americlick,#asiaclick,#africaclick,#euroclick
+ {
+  cursor: pointer;
+
+}
+.card{
+  background-color: skyblue;
+}
+@media screen and (max-width:450px){
+
+     .main{
+        width: 100%;
+
+     }
+     @media screen and (max-width:320px){
+
+          .main{
+             width: 100%;
+
+          }
